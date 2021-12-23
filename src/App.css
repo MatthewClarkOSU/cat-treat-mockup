@@ -88,3 +88,11 @@ body {
 #treat-name {
   margin: 0;
 }
+
+#membership-info {
+  margin: 0;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+  float: left;
+}

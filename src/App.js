@@ -11,14 +11,15 @@ function App() {
         <button className="burger" onclick="this.classList.toggle('active');"></button>
         <h1 id="company-name">PUBLIC GOODS</h1>
         <div>
-          <img id="loupe" src={loupe} />
+          <img id="loupe" src={loupe} alt="magnifying glass" />
         </div>
         <div id="cart-display">
           Cart 0
         </div>
       </header>
+
       <body>
-        <img src={cat_image1_mobile}></img>
+        <img src={cat_image1_mobile} alt="cat with treat" />
         <h2>Treat your pet (and you). It's on us!</h2>
         <p>Treat your pet to a healthy treat for <b>free</b> to kick of your Public
         Goods trial membership.</p>
@@ -33,13 +34,18 @@ function App() {
             included: eco-friendly products you can trust.
           </li>
         </ul>
+
         <div id="minnows">
           <h5 id="our-treat">OUR TREAT</h5>
-          <img src={minnows} />
+          <img src={minnows} alt="dried minnows treat" />
           <h4 id="treat-name">Freeze Dried Minnows</h4>
           <p>Healthy ingredients with nothing to hide.</p>
         </div>
-        <img id="cat2-mobile" src={cat_image2_mobile} />
+        <img id="cat2-mobile" src={cat_image2_mobile} alt="cat high five" />
+
+        <div id="membership-info">
+          <h4>PET-APPROVED</h4>
+        </div>
       </body>
     </div>
   );
