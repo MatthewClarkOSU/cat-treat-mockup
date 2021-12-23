@@ -51,7 +51,7 @@ function App() {
             <ul id="checkmark-bullets">
               <li>Cancel anytime during your free trial.</li>
               <li>Free shipping on orders over $45.</li>
-              <li>Direct-to-consumer prices on hundres of premium products.</li>
+              <li>Direct-to-consumer prices on hundreds of premium products.</li>
             </ul>
         </div>
       </body>
