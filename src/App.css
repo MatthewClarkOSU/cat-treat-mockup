@@ -1,7 +1,22 @@
+.App {
+  font-family: Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
 header {
   display: flex;
   justify-content: center;
-  margin: auto;
+  width: 357px;
+  align-items: center;
+  margin: 10px auto;
+  letter-spacing: .1rem;
+}
+
+#company-name {
+  width: 50px;
+  margin: 0 80px 0 120px;
+  font-weight: 100;
+  font-size: 15px;
 }
 
 .burger {
@@ -18,10 +33,10 @@ header {
 
 .burger:before, .burger:after {
   content: '';
-  width: 15px;
+  width: 25px;
   height: 2px;
   position: absolute;
-  background: #1a1a1a;
+  background: black;
   transition: all 250ms ease-out;
   will-change: transform;
 }
@@ -36,4 +51,15 @@ header {
 
 #loupe {
   width: 20px;
+  margin-right: 20px;
+}
+
+#cart-display {
+  font-size: 12px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
