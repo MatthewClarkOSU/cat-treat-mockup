@@ -1,12 +1,13 @@
 .App {
   font-family: Verdana, sans-serif;
   box-sizing: border-box;
+  margin-bottom: 100px;
 }
 
 header {
   display: flex;
   justify-content: center;
-  width: 357px;
+  width: 375px;
   align-items: center;
   margin: 10px auto;
   letter-spacing: .1rem;
@@ -21,6 +22,7 @@ header {
 
 .burger {
   display: flex;
+  margin-top: 10px;
   outline: none;
   height: 20px;
   width: 15px;
@@ -52,6 +54,7 @@ header {
 #loupe {
   width: 20px;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 #cart-display {
@@ -60,6 +63,27 @@ header {
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
+  width: 375px;
+}
+
+#minnows {
+  width: 375px;
+  background-color: #DDDFE0;
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+#our-treat {
+  position: absolute;
+  margin: 30px 0 30px 165px;
+  font-weight: 500;
+}
+
+#treat-name {
+  margin: 0;
 }
