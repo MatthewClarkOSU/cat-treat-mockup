@@ -96,3 +96,14 @@ body {
   justify-content: left;
   float: left;
 }
+
+#checkmark-bullets {
+  list-style: none;
+  line-height: 35px;
+}
+
+#checkmark-bullets li:before {
+  content: '✓';
+  margin-right: 20px;
+  margin-left: -38px;
+}

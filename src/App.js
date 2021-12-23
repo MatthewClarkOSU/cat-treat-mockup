@@ -45,6 +45,14 @@ function App() {
 
         <div id="membership-info">
           <h4>PET-APPROVED</h4>
+          <h4>It feels good to be a member</h4>
+          <p>After your free trial, become a full-time member with 
+            benefits for $59 a year.</p>
+            <ul id="checkmark-bullets">
+              <li>Cancel anytime during your free trial.</li>
+              <li>Free shipping on orders over $45.</li>
+              <li>Direct-to-consumer prices on hundres of premium products.</li>
+            </ul>
         </div>
       </body>
     </div>
