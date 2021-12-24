@@ -54,6 +54,16 @@ function App() {
               <li>Direct-to-consumer prices on hundreds of premium products.</li>
             </ul>
         </div>
+
+        <div id="bottom-button-container">
+          <div id="free-offer">
+            Claim your free offer
+          </div>
+          <div id="bottom-buttons">
+            Buttons
+          </div>
+
+        </div>
       </body>
     </div>
   );
