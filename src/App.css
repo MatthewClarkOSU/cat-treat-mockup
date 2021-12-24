@@ -110,7 +110,7 @@ body {
 #bottom-button-container {
   width: 375px;
   position: fixed;
-  bottom: 130px;
+  bottom: 0px;
 }
 
 #free-offer {
@@ -124,5 +124,33 @@ body {
 #bottom-buttons {
   color: white;
   background-color: #6E6B68;
-  height: 80px;
+  padding-top: 10px;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.bi-chevron-left {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.bi-chevron-right {
+  margin-right: 50px;
+}
+
+.bi-box-arrow-up {
+  margin-right: 50px;
+}
+
+.bi-book {
+  margin-right: 50px;
+}
+
+#bottom-bar {
+  color: white;
+  height: 3px;
+  margin: 0 110px 0 110px;
+  background-color: white;
+  border-radius: 7px 7px 7px 7px;
+  margin-top: 25px;
 }

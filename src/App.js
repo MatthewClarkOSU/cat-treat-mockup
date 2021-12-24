@@ -3,6 +3,7 @@ import loupe from "./images/loupe.png"
 import cat_image1_mobile from "./images/cat_image1_mobile.png"
 import minnows from "./images/cat_treats_fd_minnows_01 3.png"
 import cat_image2_mobile from "./images/cat_image2_mobile.png"
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
   return (
@@ -60,7 +61,12 @@ function App() {
             Claim your free offer
           </div>
           <div id="bottom-buttons">
-            Buttons
+            <i class="bi bi-chevron-left"></i>
+            <i class="bi bi-chevron-right"></i>
+            <i class="bi bi-box-arrow-up"></i>
+            <i class="bi bi-book"></i>
+            <i class="bi bi-app"></i>
+            <hr id="bottom-bar" />
           </div>
 
         </div>
