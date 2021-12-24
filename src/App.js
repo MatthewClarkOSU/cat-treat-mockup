@@ -20,21 +20,23 @@ function App() {
       </header>
 
       <body>
-        <img src={cat_image1_mobile} alt="cat with treat" />
-        <h2>Treat your pet (and you). It's on us!</h2>
-        <p>Treat your pet to a healthy treat for <b>free</b> to kick of your Public
-        Goods trial membership.</p>
-        <h3>See what it's like to be a Public Goods member.</h3>
-        <ul>
-          <li>Included in your bundle is a free 2-week membership that gives you
-            unlimited access to our entire collection of sustainable essentials.
-          </li>
-          <br></br>
-          <li>
-            Take a load off. We make it easy for you to make better choices. Always
-            included: eco-friendly products you can trust.
-          </li>
-        </ul>
+        <div id="free-cat">
+          <img src={cat_image1_mobile} alt="cat with treat" />
+          <h2>Treat your pet (and you). It's on us!</h2>
+          <p>Treat your pet to a healthy treat for <b>free</b> to kick of your Public
+          Goods trial membership.</p>
+          <h3>See what it's like to be a Public Goods member.</h3>
+          <ul>
+            <li>Included in your bundle is a free 2-week membership that gives you
+              unlimited access to our entire collection of sustainable essentials.
+            </li>
+            <br></br>
+            <li>
+              Take a load off. We make it easy for you to make better choices. Always
+              included: eco-friendly products you can trust.
+            </li>
+          </ul>
+        </div>
 
         <div id="minnows">
           <h5 id="our-treat">OUR TREAT</h5>

@@ -1,3 +1,5 @@
+/* Mobile/Tablet */
+
 .App {
   font-family: Verdana, sans-serif;
   box-sizing: border-box;
@@ -153,4 +155,28 @@ body {
   background-color: white;
   border-radius: 7px 7px 7px 7px;
   margin-top: 25px;
+}
+
+/* Laptop/Desktop */
+
+@media only screen and (min-width: 1024px) {
+  header {
+    width: 750px;
+  }
+
+  #company-name {
+  margin: 0 160px 0 240px;
+  }
+
+  #loupe {
+    margin-right: 40px;
+  }
+
+  #cart-display {
+    font-size: 12px;
+  }
+
+  #free-cat {
+    display: inline-block;
+  }
 }
