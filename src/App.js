@@ -4,6 +4,7 @@ import cat_image1_mobile from "./images/cat_image1_mobile.png"
 import cat_image1_desktop from "./images/cat_image1_desktop.png"
 import minnows from "./images/cat_treats_fd_minnows_01 3.png"
 import cat_image2_mobile from "./images/cat_image2_mobile.png"
+import cat_image2_desktop from "./images/cat_image2_desktop.png"
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
@@ -25,11 +26,11 @@ function App() {
           <div id="cat-image1-mobile">
             <img src={cat_image1_mobile} alt="cat with treat" />
           </div>
-          <div id="cat-image1-desktop">
-            <img src={cat_image1_desktop} alt="cat with treat" />
+          <div>
+            <img id="cat-image1-desktop" src={cat_image1_desktop} alt="cat with treat" />
           </div>
           <div id="treat-your-pet">
-            <h2>Treat your pet (and you). It's on us!</h2>
+            <h2>Treat your pet (and you). <br></br> It's on us!</h2>
             <p>Treat your pet to a healthy treat for <b>free</b> to kick of your Public
             Goods trial membership.</p>
             <h3 id="public-goods-member">See what it's like to be a Public Goods member.</h3>
@@ -65,10 +66,13 @@ function App() {
         </div>
           
         <div id="membership-info">
-          <div>
-            <img id="cat2-mobile" src={cat_image2_mobile} alt="cat high five" />
+          <div id="cat-image2-mobile">
+            <img  src={cat_image2_mobile} alt="cat high five" />
           </div>
           <div>
+            <img id="cat-image2-desktop" src={cat_image2_desktop} alt="cat high five" />
+          </div>
+          <div id="pet-approved">
             <h4>PET-APPROVED</h4>
             <h4>It feels good to be a member</h4>
             <p>After your free trial, become a full-time member with
@@ -79,7 +83,6 @@ function App() {
               <li>Direct-to-consumer prices on hundreds of premium products.</li>
             </ul>
           </div>
-          
         </div>
 
         <div id="bottom-button-container">

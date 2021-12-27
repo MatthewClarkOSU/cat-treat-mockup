@@ -1,7 +1,7 @@
 /* Mobile/Tablet */
 
 .App {
-  font-family: Verdana, sans-serif;
+  font-family: roboto, sans-serif;
   box-sizing: border-box;
   margin-bottom: 140px;
 }
@@ -157,11 +157,11 @@ body {
   margin-top: 25px;
 }
 
-/* Mobile/Tablet specific */
+/* Mobile/Tablet elements to hide */
 
 @media only screen and (max-width: 1024px) {
   #cat-image1-desktop {
-  display: none;
+    display: none;
   }
 
   #free-offer-desktop {
@@ -175,6 +175,10 @@ body {
   #minnows-desktop {
     display: none;
   }
+
+  #cat-image2-desktop {
+    display: none;
+  }
 }
 
 /* Laptop/Desktop */
@@ -185,7 +189,7 @@ body {
   }
 
   #company-name {
-  margin: 0 260px 0 340px;
+    margin: 0 260px 0 340px;
   }
 
   #loupe {
@@ -210,21 +214,20 @@ body {
 
   #cat-image1-desktop {
     max-width: 100%;
-    height: auto;
   }
 
   #treat-your-pet {
-    width: 430px;
     margin-right: 15px;
+    max-width: 400px;
   }
 
   #free-offer-desktop {
-  color: white;
-  background-color: #D79664;
-  height: 35px;
-  text-align: center;
-  padding-top: 15px;
-  margin-top: 35px;
+    color: white;
+    background-color: #D79664;
+    height: 35px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 35px;
   }
 
   #public-goods-member {
@@ -232,7 +235,7 @@ body {
   }
 
   #bottom-button-container {
-  display: none;
+    display: none;
   }
 
   #minnows {
@@ -248,12 +251,12 @@ body {
   }
 
   #minnows-desktop {
-  width: 375px;
-  background-color: #DDDFE0;
-  text-align: center;
-  position: relative;
-  padding-bottom: 20px;
-  margin-top: 40px;
+    width: 375px;
+    background-color: #DDDFE0;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 40px;
   }
 
   #our-treat-mobile {
@@ -261,12 +264,29 @@ body {
   }
 
   #our-treat-desktop {
-  position: absolute;
-  margin-top: 25px;
-  font-weight: 500;
+    position: absolute;
+    margin-top: 25px;
+    font-weight: 500;
   }
 
   #membership-info {
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    width: 1024px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #cat-image2-mobile {
+    display: none;
+  }
+
+  #cat-image2-desktop {
+    max-width: 100%;
+  }
+
+  #pet-approved {
+    max-width: 400px;
+    margin-left: 75px;
   }
 }
