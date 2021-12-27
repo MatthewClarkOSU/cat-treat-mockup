@@ -72,13 +72,14 @@ body {
   width: 375px;
 }
 
-#minnows {
+#minnows-mobile {
   width: 375px;
   background-color: #DDDFE0;
   text-align: center;
   position: relative;
   padding-bottom: 20px;
   margin-top: 40px;
+
 }
 
 #our-treat {
@@ -157,6 +158,18 @@ body {
   margin-top: 25px;
 }
 
+/* Mobile/Tablet specific */
+
+@media only screen and (max-width: 1024px) {
+  #cat-image1-desktop {
+  display: none;
+  }
+
+  #free-offer-desktop {
+    display: none;
+  }
+}
+
 /* Laptop/Desktop */
 
 @media only screen and (min-width: 1024px) {
@@ -165,11 +178,11 @@ body {
   }
 
   #company-name {
-  margin: 0 160px 0 240px;
+  margin: 0 260px 0 340px;
   }
 
   #loupe {
-    margin-right: 40px;
+    margin-right: 60px;
   }
 
   #cart-display {
@@ -177,6 +190,53 @@ body {
   }
 
   #free-cat {
-    display: inline-block;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1024px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #cat-image1-mobile {
+    display: none;
+  }
+
+  #cat-image1-desktop {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #treat-your-pet {
+    width: 430px;
+    margin-right: 15px;
+  }
+
+  #free-offer-desktop {
+  color: white;
+  background-color: #D79664;
+  height: 35px;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 35px;
+  }
+
+  #public-goods-member {
+    font-size: 15px;
+  }
+
+  #bottom-button-container {
+  display: none;
+  }
+
+  #minnows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1024px;
+    background-color: #DDDFE0;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 40px;
   }
 }
