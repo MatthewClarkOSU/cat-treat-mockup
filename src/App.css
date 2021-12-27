@@ -79,10 +79,9 @@ body {
   position: relative;
   padding-bottom: 20px;
   margin-top: 40px;
-
 }
 
-#our-treat {
+#our-treat-mobile {
   position: absolute;
   margin: 30px 0 30px 165px;
   font-weight: 500;
@@ -168,6 +167,14 @@ body {
   #free-offer-desktop {
     display: none;
   }
+
+  #our-treat-desktop {
+    display: none;
+  }
+
+  #minnows-desktop {
+    display: none;
+  }
 }
 
 /* Laptop/Desktop */
@@ -238,5 +245,28 @@ body {
     position: relative;
     padding-bottom: 20px;
     margin-top: 40px;
+  }
+
+  #minnows-desktop {
+  width: 375px;
+  background-color: #DDDFE0;
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  }
+
+  #our-treat-mobile {
+    display: none;
+  }
+
+  #our-treat-desktop {
+  position: absolute;
+  margin-top: 25px;
+  font-weight: 500;
+  }
+
+  #membership-info {
+  flex-direction: row;
   }
 }
