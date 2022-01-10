@@ -15,7 +15,7 @@ header {
   letter-spacing: .1rem;
 }
 
-#company-name {
+.company-name {
   width: 50px;
   margin: 0 80px 0 120px;
   font-weight: 100;
@@ -53,13 +53,13 @@ header {
   transform: translateY(3px);
 }
 
-#loupe {
+.loupe {
   width: 20px;
   margin-right: 20px;
   margin-bottom: 10px;
 }
 
-#cart-display {
+.cart-display {
   font-size: 12px;
 }
 
@@ -72,7 +72,7 @@ body {
   width: 375px;
 }
 
-#minnows-mobile {
+.minnows-mobile {
   width: 375px;
   background-color: #DDDFE0;
   text-align: center;
@@ -81,41 +81,41 @@ body {
   margin-top: 40px;
 }
 
-#our-treat-mobile {
+.our-treat-mobile {
   position: absolute;
   margin: 30px 0 30px 165px;
   font-weight: 500;
 }
 
-#treat-name {
+.treat-name {
   margin: 0;
 }
 
-#membership-info {
+.membership-info {
   margin: 0;
   align-items: left;
   justify-content: left;
   float: left;
 }
 
-#checkmark-bullets {
+.checkmark-bullets {
   list-style: none;
   line-height: 35px;
 }
 
-#checkmark-bullets li:before {
+.checkmark-bullets li:before {
   content: '✓';
   margin-right: 20px;
   margin-left: -38px;
 }
 
-#bottom-button-container {
+.bottom-button-container {
   width: 375px;
   position: fixed;
   bottom: 0px;
 }
 
-#free-offer {
+.free-offer {
   color: white;
   background-color: #D79664;
   height: 35px;
@@ -123,7 +123,7 @@ body {
   padding-top: 15px;
 }
 
-#bottom-buttons {
+.bottom-buttons {
   color: white;
   background-color: #6E6B68;
   padding-top: 10px;
@@ -148,7 +148,7 @@ body {
   margin-right: 50px;
 }
 
-#bottom-bar {
+.bottom-bar {
   color: white;
   height: 3px;
   margin: 0 110px 0 110px;
@@ -160,23 +160,23 @@ body {
 /* Mobile/Tablet elements to hide */
 
 @media only screen and (max-width: 1024px) {
-  #cat-image1-desktop {
+  .cat-image1-desktop {
     display: none;
   }
 
-  #free-offer-desktop {
+  .free-offer-desktop {
     display: none;
   }
 
-  #our-treat-desktop {
+  .our-treat-desktop {
     display: none;
   }
 
-  #minnows-desktop {
+  .minnows-desktop {
     display: none;
   }
 
-  #cat-image2-desktop {
+  .cat-image2-desktop {
     display: none;
   }
 }
@@ -188,19 +188,19 @@ body {
     width: 750px;
   }
 
-  #company-name {
+  .company-name {
     margin: 0 260px 0 340px;
   }
 
-  #loupe {
+  .loupe {
     margin-right: 60px;
   }
 
-  #cart-display {
+  .cart-display {
     font-size: 12px;
   }
 
-  #free-cat {
+  .free-cat {
     display: flex;
     flex-direction: row-reverse;
     width: 1024px;
@@ -208,20 +208,20 @@ body {
     align-items: center;
   }
 
-  #cat-image1-mobile {
+  .cat-image1-mobile {
     display: none;
   }
 
-  #cat-image1-desktop {
+  .cat-image1-desktop {
     max-width: 100%;
   }
 
-  #treat-your-pet {
+  .treat-your-pet {
     margin-right: 15px;
     max-width: 400px;
   }
 
-  #free-offer-desktop {
+  .free-offer-desktop {
     color: white;
     background-color: #D79664;
     height: 35px;
@@ -230,15 +230,15 @@ body {
     margin-top: 35px;
   }
 
-  #public-goods-member {
+  .public-goods-member {
     font-size: 15px;
   }
 
-  #bottom-button-container {
+  .bottom-button-container {
     display: none;
   }
 
-  #minnows {
+  .minnows {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -250,7 +250,7 @@ body {
     margin-top: 40px;
   }
 
-  #minnows-desktop {
+  .minnows-desktop {
     width: 375px;
     background-color: #DDDFE0;
     text-align: center;
@@ -259,17 +259,17 @@ body {
     margin-top: 40px;
   }
 
-  #our-treat-mobile {
+  .our-treat-mobile {
     display: none;
   }
 
-  #our-treat-desktop {
+  .our-treat-desktop {
     position: absolute;
     margin-top: 25px;
     font-weight: 500;
   }
 
-  #membership-info {
+  .membership-info {
     display: flex;
     flex-direction: row;
     width: 1024px;
@@ -277,15 +277,15 @@ body {
     align-items: center;
   }
 
-  #cat-image2-mobile {
+  .cat-image2-mobile {
     display: none;
   }
 
-  #cat-image2-desktop {
+  .cat-image2-desktop {
     max-width: 100%;
   }
 
-  #pet-approved {
+  .pet-approved {
     max-width: 400px;
     margin-left: 75px;
   }
